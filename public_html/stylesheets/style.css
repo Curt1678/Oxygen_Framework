@@ -1,0 +1,201 @@
+@CHARSET "UTF-8";
+
+body {
+  background-attachment: fixed;
+  background-position: top;
+  font-family:arial;
+}
+
+/** Header */
+
+.header {
+	
+	background:red;
+	top:0;
+	left:0;
+	right:0;
+	height:auto;
+	position:fixed;
+	color:white;
+	opacity:.8;
+	height:120px;
+	z-index:0;
+
+}
+
+.logo {
+	font-size:80px;
+	float:left;
+	margin-left:250px;
+	margin-top:20px;
+}
+
+.contact {
+	float:right;
+	margin-right:200px;
+}
+
+.contact li {
+	display:inline; 
+	margin-right:20px;	
+}
+
+.main_menu {
+	width:75%; 
+	float:right;
+}
+
+.menu{
+	color:white;
+	float:right;
+	margin-right:200px;
+	margin-top:20px;
+}
+
+.menu li{ 
+	display:inline; 
+	margin-right:50px;
+	border-right: 1px solid white;
+	padding-right:10px;
+} 
+
+
+.tel {
+	margin-top:10px;
+	font-size:22px;
+	float:right;
+	margin-left:30px;
+}
+
+.tel i {margin-right:10px;}
+.email i {margin-right:10px;}
+
+.email {
+	margin-top:10px;
+	font-size:22px;
+	float:right;
+	margin-left:100px;
+}
+
+/** Main Content  */
+
+.main {
+
+	border-bottom: 1px solid grey;
+	background:#f3f3f3;
+	left:0;
+	right:0;
+	top:0;
+	position:relative;
+	z-index:-1;
+	min-height:600px;
+	max-height:800px;
+	
+
+}
+
+.main_services {
+
+	margin-top:800px;
+	border-bottom: 1px solid blue;
+	background:#fff;
+	position:relative;
+	z-index:-1;
+	min-height:600px;
+	max-height:800px;
+}
+
+.main h1 {
+	
+	text-align:center;
+	margin-top:12%;
+	
+}
+
+.fa-angle-down {color:black;}
+
+.content_hr {width:40px;border:1px dashed #000;}
+
+.main hr {width:25%;}
+/** Services Icons */
+
+.services_one {
+    background: #f00;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left:25%;
+    float:left;
+}
+
+.services_one i {
+	
+	font-size:80px;
+	text-align:center;
+	color:white;
+	margin-left:30px;
+	margin-top:36px;
+	
+	
+}
+
+.services_one p {
+	
+	margin-top:40px;
+	text-align:center;
+	
+}
+
+.services_two {
+    background: #f00;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left:9%;
+    float:left;
+}
+
+.services_two i {
+	
+	font-size:82px;
+	text-align:center;
+	color:white;
+	margin-left:30px;
+	margin-top:32px;
+	
+	
+}
+
+.services_two p {
+	
+	margin-top:44px;
+	text-align:center;
+	
+}
+
+.services_three {
+    background: #f00;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left:9%;
+    float:left;
+}
+
+.services_three i {
+	
+	font-size:82px;
+	text-align:center;
+	color:white;
+	margin-left:32px;
+	margin-top:38px;
+	
+	
+}
+
+.services_three p {
+	
+	margin-top:38px;
+	text-align:center;
+	
+}
